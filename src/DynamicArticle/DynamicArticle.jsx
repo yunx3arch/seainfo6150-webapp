@@ -2,9 +2,11 @@ import React from "react";
 import HTMLText from "../HTMLText/HTMLText";
 
 const DynamicArticle = (props) => {
+  
   return (
     <article>
       <header>
+      <link to="/articlelist">Back</link>
         <h1>{props.article.title}</h1>
         <address>
           by {props.article.author} (
