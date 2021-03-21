@@ -1,0 +1,7 @@
+.box{
+    background-color: grey;
+    border:1px dashed rgb(66, 66, 66);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px red ;
+    margin:30px 2px;
+}

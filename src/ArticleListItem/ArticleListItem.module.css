@@ -1,0 +1,13 @@
+.li{
+    border-radius:1em;
+    border:1px solid red;
+    margin-bottom: 20px;
+    padding:0px 10px 20px;
+    background-image:linear-gradient(to right,rgb(168, 27, 27),white 10%)
+}
+.link{
+    color:red;
+}
+.time{
+    font-weight:bold;
+}
