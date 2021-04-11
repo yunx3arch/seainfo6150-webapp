@@ -16,3 +16,23 @@
     font-weight: bold;
     margin-bottom: 20px;
 }
+.text{
+  column-count: 4;
+}
+@media(max-width: 600px){
+  .text{
+    column-count: 1;
+  }
+}
+
+@media(max-width:1000px){
+  .text{
+    column-count: 2;
+  }
+}
+
+@media(min-width:1000px){
+  .text{
+    column-count: 4;
+  }
+}
